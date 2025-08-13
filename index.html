@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ted Bundy Project</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .slide {
+            display: none;
+        }
+        .slide.active {
+            display: block;
+        }
+    </style>
+</head>
+<body class="bg-stone-900 text-white flex items-center justify-center min-h-screen p-4">
+
+    <div class="w-full max-w-3xl mx-auto">
+        <!-- Slideshow Container -->
+        <div id="slideshow-container" class="bg-stone-800 border-2 border-red-900 rounded-lg shadow-2xl p-6 md:p-10 relative mb-4 min-h-[500px] flex flex-col justify-between">
+            
+            <!-- Slide 1: Title -->
+            <div id="slide-1" class="slide active">
+                <h1 class="text-4xl md:text-5xl font-bold text-red-500 text-center mb-4">Ted Bundy</h1>
+                <p class="text-center text-stone-300 mb-6">By Matthew Kotlarsky</p>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/c/cc/Ted_Bundy_headshot.jpg" 
+                     onerror="this.onerror=null;this.src='https://placehold.co/600x400/1c1917/ef4444?text=Ted+Bundy';"
+                     alt="Ted Bundy headshot" class="mx-auto rounded-lg w-full max-w-sm h-auto object-cover shadow-lg">
+            </div>
+
+            <!-- Slide 2: Childhood -->
+            <div id="slide-2" class="slide">
+                <h2 class="text-2xl font-bold text-red-500 mb-4">What was his childhood like?</h2>
+                <p class="text-stone-300 text-lg leading-relaxed">
+                    Ted Bundy had a really confusing childhood. For years, he thought his mom was his sister and his grandparents were his parents, which was a big secret to keep him from being seen as illegitimate. He was also pretty shy and lonely, even though people thought he was a polite kid.
+                </p>
+            </div>
+
+            <!-- Slide 3: Precursors -->
+            <div id="slide-3" class="slide">
+                <h2 class="text-2xl font-bold text-red-500 mb-4">Were there any early problems?</h2>
+                <p class="text-stone-300 text-lg leading-relaxed">
+                    Yeah, there were definitely some warning signs. His aunt remembered waking up once when he was three to find knives placed all around her bed. As a teenager, he also liked to peep in people's windows, which is super creepy and a major red flag.
+                </p>
+            </div>
+
+            <!-- Slide 4: Adult Life -->
+            <div id="slide-4" class="slide">
+                <h2 class="text-2xl font-bold text-red-500 mb-4">What was his adult life like?</h2>
+                <p class="text-stone-300 text-lg leading-relaxed">
+                    On the outside, his adult life looked pretty normal, which is the scary part. He graduated from the University of Washington with a degree in psychology and even went to law school for a while. He was also involved in politics, working for Washington's governor.
+                </p>
+            </div>
+
+            <!-- Slide 5: Relationships -->
+            <div id="slide-5" class="slide">
+                <h2 class="text-2xl font-bold text-red-500 mb-4">Did he marry or have kids?</h2>
+                <p class="text-stone-300 text-lg leading-relaxed">
+                    He had a long-term girlfriend named Elizabeth Kloepfer who had no idea what he was doing for a long time. During his trial in Florida, he actually married a woman named Carole Ann Boone and they had a daughter. So no, he wasn't exactly a loner, which made it harder for people to suspect him.
+                </p>
+            </div>
+
+            <!-- Slide 6: Mental Disorder -->
+            <div id="slide-6" class="slide">
+                <h2 class="text-2xl font-bold text-red-500 mb-4">Was he diagnosed with a mental disorder?</h2>
+                <p class="text-stone-300 text-lg leading-relaxed">
+                    This is a tricky one. Doctors who studied him had different opinions, but many said he had antisocial personality disorder, which is basically what people mean when they say "psychopath." He was charming and smart on the outside, but he didn't feel any empathy or guilt for what he did.
+                </p>
+            </div>
+
+            <!-- Slide 7: The Crimes -->
+            <div id="slide-7" class="slide">
+                <h2 class="text-2xl font-bold text-red-500 mb-4">What were his crimes like?</h2>
+                <img src="https://hips.hearstapps.com/hmg-prod/images/alcatraz-east-bundy-vw-1556910537.jpg?crop=0.9877883310719131xw:1xh;center,top&resize=1200:*" 
+                     onerror="this.onerror=null;this.src='https://placehold.co/600x400/1c1917/ef4444?text=VW+Beetle';"
+                     alt="Ted Bundy's Volkswagen Beetle" class="mx-auto rounded-lg w-full max-w-md h-auto object-cover shadow-lg mb-4">
+                <p class="text-stone-300 text-lg leading-relaxed">
+                    His crimes were horrible; he kidnapped, raped, and murdered many young women between 1974 and 1978. He confessed to killing 30 women in seven states, but police think there might have been even more. He often faked an injury or pretended to be a police officer to get his victims to trust him.
+                </p>
+            </div>
+
+            <!-- Slide 8: Behavior When Caught -->
+            <div id="slide-8" class="slide">
+                <h2 class="text-2xl font-bold text-red-500 mb-4">How did he act when he was caught?</h2>
+                <p class="text-stone-300 text-lg leading-relaxed">
+                    When he was first caught, he was super calm and confident, almost arrogant. He escaped from jail twice! He seemed to enjoy the attention and the cat-and-mouse game he was playing with the police.
+                </p>
+            </div>
+
+            <!-- Slide 9: Trial Info -->
+            <div id="slide-9" class="slide">
+                <h2 class="text-2xl font-bold text-red-500 mb-4">The Trial</h2>
+                 <img src="https://res.cloudinary.com/graham-media-group/image/upload/f_auto/q_auto/c_scale,w_640/v1/production/public/EM2FXWH7UZHVDG3K7M54EHWRU4.jpg?_a=DAJHqpE+ZAAA" 
+                     onerror="this.onerror=null;this.src='https://placehold.co/600x400/1c1917/ef4444?text=Courtroom';"
+                     alt="Ted Bundy in courtroom" class="mx-auto rounded-lg w-full max-w-md h-auto object-cover shadow-lg mb-4">
+                <p class="text-stone-300 text-lg leading-relaxed">
+                    He was definitely found capable to stand trial, even though his lawyers tried to argue he wasn't. For his big trial in Florida, the judge was Edward D. Cowart. Bundy even acted as his own lawyer for part of it, which was a crazy move that got a lot of media attention.
+                </p>
+            </div>
+
+            <!-- Slide 10: Trial Tactics -->
+            <div id="slide-10" class="slide">
+                <h2 class="text-2xl font-bold text-red-500 mb-4">How did the trial go?</h2>
+                <p class="text-stone-300 text-lg leading-relaxed">
+                   The prosecutors used some really solid evidence, like a bite mark on one of the victims that they matched to Bundy's teeth. Bundy, acting as his own lawyer, tried to be charming and poke holes in the evidence, but he just came off as weird and cocky. The jury saw right through his act.
+                </p>
+            </div>
+
+            <!-- Slide 11: Charges & Sentence -->
+            <div id="slide-11" class="slide">
+                <h2 class="text-2xl font-bold text-red-500 mb-4">What was he charged with?</h2>
+                <p class="text-stone-300 text-lg leading-relaxed">
+                    For the crimes in Florida, he was charged with first-degree murder, attempted murder, and burglary. After the jury found him guilty, the judge sentenced him to death. He got three separate death sentences for his crimes.
+                </p>
+            </div>
+            
+            <!-- Slide 12: Media Coverage -->
+            <div id="slide-12" class="slide">
+                <h2 class="text-2xl font-bold text-red-500 mb-4">Media Coverage</h2>
+                <img src="https://i.etsystatic.com/37307634/r/il/a78ef8/4813276661/il_fullxfull.4813276661_3j3j.jpg" 
+                     onerror="this.onerror=null;this.src='https://placehold.co/400x600/1c1917/ef4444?text=Newspaper';"
+                     alt="Newspaper article about Ted Bundy" class="mx-auto rounded-lg w-full max-w-sm h-auto object-cover shadow-lg mb-4">
+                <p class="text-stone-300 text-lg leading-relaxed">
+                    The media went crazy over his trial because he didn't look like a typical killer. Newspapers called him handsome and charming, and it was one of the first big trials to be broadcast on national TV. Everyone was shocked that someone who seemed so normal could do such terrible things.
+                </p>
+            </div>
+
+            <!-- Slide 13: Death -->
+            <div id="slide-13" class="slide">
+                <h2 class="text-2xl font-bold text-red-500 mb-4">How did he die?</h2>
+                 <img src="https://flsheriffs.org/wp-content/uploads/2025/07/Ted-Bundy-Jail-Cell.jpg" 
+                     onerror="this.onerror=null;this.src='https://placehold.co/600x400/1c1917/ef4444?text=Prison';"
+                     alt="Florida State Prison" class="mx-auto rounded-lg w-full max-w-md h-auto object-cover shadow-lg mb-4">
+                <p class="text-stone-300 text-lg leading-relaxed">
+                   He is not still alive. After all his appeals ran out, he was executed in the electric chair at Florida State Prison on January 24, 1989. He died exactly how he was sentenced to.
+                </p>
+            </div>
+
+            <!-- Slide 14: References -->
+            <div id="slide-14" class="slide">
+                <h2 class="text-2xl font-bold text-red-500 mb-4">References</h2>
+                <ul class="list-disc list-inside text-stone-300 space-y-2">
+                    <li>Rule, Ann. (2009). The Stranger Beside Me. Simon & Schuster.</li>
+                    <li>Michaud, Stephen G., and Aynesworth, Hugh. (1999). The Only Living Witness: The True Story of Serial Sex Killer Ted Bundy. Authorlink Press.</li>
+                    <li>"Ted Bundy". Biography.com. A&E Networks Television, 27 Oct. 2021.</li>
+                    <li>"Bundy v. State". Justia Law. Retrieved August 12, 2025.</li>
+                    <li>Wikimedia Commons (for all images).</li>
+                </ul>
+            </div>
+
+        </div>
+
+        <!-- Navigation -->
+        <div class="flex justify-between items-center">
+            <button id="prevBtn" class="bg-red-700 hover:bg-red-600 text-white font-bold py-2 px-6 rounded-lg shadow-md transition-all duration-200 disabled:bg-stone-600 disabled:cursor-not-allowed">
+                Previous
+            </button>
+            <div id="slide-counter" class="text-stone-400">
+                Slide <span id="current-slide-num">1</span> of <span id="total-slides-num">14</span>
+            </div>
+            <button id="nextBtn" class="bg-red-700 hover:bg-red-600 text-white font-bold py-2 px-6 rounded-lg shadow-md transition-all duration-200 disabled:bg-stone-600 disabled:cursor-not-allowed">
+                Next
+            </button>
+        </div>
+    </div>
+
+    <script>
+        // --- JAVASCRIPT FOR SLIDESHOW LOGIC ---
+
+        // State variable to track the current slide
+        let currentSlide = 1;
+        
+        // Get all slide elements
+        const slides = document.querySelectorAll('.slide');
+        const totalSlides = slides.length;
+
+        // Get navigation buttons and counter elements
+        const prevBtn = document.getElementById('prevBtn');
+        const nextBtn = document.getElementById('nextBtn');
+        const currentSlideNumEl = document.getElementById('current-slide-num');
+        const totalSlidesNumEl = document.getElementById('total-slides-num');
+
+        /**
+         * Shows a specific slide and hides others.
+         * @param {number} n - The slide number to show (1-based index).
+         */
+        function showSlide(n) {
+            // Loop through all slides and hide them
+            slides.forEach(slide => {
+                slide.classList.remove('active');
+            });
+
+            // Show the correct slide
+            const targetSlide = document.getElementById(`slide-${n}`);
+            if (targetSlide) {
+                targetSlide.classList.add('active');
+            }
+            
+            // Update the slide counter display
+            currentSlideNumEl.textContent = n;
+
+            // Update button states
+            updateButtons();
+        }
+
+        /**
+         * Updates the disabled state of the navigation buttons.
+         */
+        function updateButtons() {
+            // Disable 'Previous' button if on the first slide
+            if (currentSlide === 1) {
+                prevBtn.disabled = true;
+            } else {
+                prevBtn.disabled = false;
+            }
+
+            // Disable 'Next' button if on the last slide
+            if (currentSlide === totalSlides) {
+                nextBtn.disabled = true;
+            } else {
+                nextBtn.disabled = false;
+            }
+        }
+
+        // Event listener for the 'Next' button
+        nextBtn.addEventListener('click', () => {
+            if (currentSlide < totalSlides) {
+                currentSlide++;
+                showSlide(currentSlide);
+            }
+        });
+
+        // Event listener for the 'Previous' button
+        prevBtn.addEventListener('click', () => {
+            if (currentSlide > 1) {
+                currentSlide--;
+                showSlide(currentSlide);
+            }
+        });
+
+        // Initial setup when the page loads
+        document.addEventListener('DOMContentLoaded', () => {
+            totalSlidesNumEl.textContent = totalSlides;
+            showSlide(currentSlide);
+        });
+    </script>
+
+</body>
+</html>
